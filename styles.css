@@ -1,0 +1,48 @@
+body {
+  background-color: #FCEAD0;
+  font-family: sans-serif;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.menu {
+/*  height: 90%;*/
+  background-image: "myweb.png";
+  margin-bottom: auto;
+  padding-top: 15px;
+  
+  max-height: 800px;
+}
+
+h1, h2 {
+  font-family: sans-serif;
+}
+
+.item p {
+  display: inline-block;
+}
+
+.home{
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%
+}
+
+
+.popup_close {
+  visibility: hidden;
+}
+
+.popup_open {
+  visibility: visible;
+}
