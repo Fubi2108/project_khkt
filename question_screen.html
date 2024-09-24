@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <script src="functions.js" defer></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        generate_question("testing.json");
+      });
+    </script>
+
+    <div id="ref"> </div>
+    <button id="b1"> </button>
+    <button id="b2"> </button>
+    <button id="b3"> </button>
+    <button id="b4"> </button>
+
+    <button id="sumit" onclick="generate_question('testing.json')"> Sumit </button>
+
+    <h3 id="score_board">0</h3>
+
+    <div id="pop" class="popup_close"> 
+      <h3>Go home please</h3>
+      <button onclick = "go_home(); window.location.href='KHKT-mainpage.html';">Home</button>
+    </div>
+
+  </body>
+</html>

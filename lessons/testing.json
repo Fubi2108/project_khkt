@@ -1,0 +1,26 @@
+[
+    {
+        "name":"gà",
+        "ref": "lessons/testing_ref/ga.mp4"
+    },
+
+    {
+        "name":"chó",
+        "ref": "lessons/testing_ref/cho.jpg"
+    },
+
+    {
+        "name": "mèo",
+        "ref": "lessons/testing_ref/meo.jpg"
+    },
+
+    {
+        "name": "dê",
+        "ref": "lessons/testing_ref/de.mp4"
+    },
+
+    {
+        "name": "vịt",
+        "ref": "lessons/testing_ref/vit.jpg"
+    }
+]

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move Element</title>
+    <style>
+        #movableDiv {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            position: relative; /* Set position to relative to allow movement */
+            top: 0; /* Initial position */
+        }
+    </style>
+</head>
+<body>
+
+    <div id="movableDiv">Move Me!</div>
+    <br>
+    <button onclick="moveUp()">Move Up</button>
+    <button onclick="moveDown()">Move Down</button>
+
+    <script>
+        let topPosition = 0; // Keeps track of the top position of the div
+
+        function moveUp() {
+            topPosition -= 10; // Decrease the top position by 10px
+            document.getElementById("movableDiv").style.top = topPosition + "px";
+        }
+
+        function moveDown() {
+            topPosition += 10; // Increase the top position by 10px
+            document.getElementById("movableDiv").style.top = topPosition + "px";
+        }
+    </script>
+
+</body>
+</html>
