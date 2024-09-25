@@ -105,3 +105,11 @@ body {
 .first_page{
   position: relative;
 }
+
+.popup_open{
+  visibility: visible;
+}
+
+.popup_close{
+  visibility: hidden;
+}
