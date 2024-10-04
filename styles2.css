@@ -53,34 +53,6 @@ body {
 /*  padding-top: 44%;*/
 }
 
-.small1-button {
-  position: absolute;
-  top: 18vw;  
-  right: 13vw; 
-  z-index: 2; 
-}
-
-.small2-button {
-  position: absolute;
-  top: 23vw; 
-  right: 13vw; 
-  z-index: 2; 
-}
-
-.small-but {
-  width: 16vw;  
-  height: auto; 
-  cursor: pointer; 
-}
-
-.small-but:hover {
-  transform: scale(1.05);
-}
-
-.first_page{
-  position: relative;
-}
-
 .search{
   --padding: 14px;
   width: max-content;
