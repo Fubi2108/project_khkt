@@ -53,10 +53,7 @@ body {
 /*  padding-top: 44%;*/
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> b9263a10a46cfda98298a4f27729e633420c4e77
 .search{
   --padding: 14px;
   width: max-content;
@@ -99,14 +96,14 @@ body {
 
 .small3-button {
   position: absolute;
-  top: 7vw;  
+  top: 5vw;  
   left: 22vw; 
   z-index: 2; 
 }
 
 .small4-button {
   position: absolute;
-  top: 7vw; 
+  top: 5vw; 
   left: 38vw; 
   z-index: 2; 
 }
