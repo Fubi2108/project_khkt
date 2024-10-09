@@ -99,14 +99,14 @@ body {
 
 .small3-button {
   position: absolute;
-  top: 5vw;  
+  top: 5.5vh;  
   left: 22vw; 
   z-index: 2; 
 }
 
 .small4-button {
   position: absolute;
-  top: 5vw; 
+  top: 5.5vh; 
   left: 38vw; 
   z-index: 2; 
 }
@@ -119,4 +119,18 @@ body {
 
 .small-but:hover {
   transform: scale(1.05);
+}
+
+.alphabet {
+  position: absolute; 
+  top: 30vh;
+  left: 23vw;
+  width: 100%;
+  height: 100vh; 
+  z-index: -2;
+}
+
+.alphabet-image {
+  width: 50%;
+  height: auto; /* Đảm bảo hình ảnh giữ nguyên tỷ lệ */
 }
