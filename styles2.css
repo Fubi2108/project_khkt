@@ -8,8 +8,9 @@ body {
 
 .menu {
   display: flex;
+  flex-direction: column; 
   justify-content: flex-start;
-  width: 50%;
+  width: 75%;
   top: 2vw;
   left: 2vw;
   position: absolute;
@@ -29,8 +30,10 @@ body {
   font-weight: bold;
   cursor: pointer; 
   flex-grow: 1;
-  margin: 0 1.5vw; 
+  margin: 10px 0;
   text-decoration: none;
+  width: auto;
+  white-space: nowrap; 
 }
 
 .menu-btn:hover {
