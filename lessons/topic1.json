@@ -1,5 +1,10 @@
 [
     {
+        "name":"topic",
+        "ref":"0"
+    },
+
+    {
         "name":"chào",
         "ref": "lessons/topic_1_ref/chao.mp4"
     },
