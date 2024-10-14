@@ -162,3 +162,12 @@ body {
   white-space: nowrap; 
   color: #B0ADA8;
 }
+
+.center-button {
+  width: 15%;
+  height: auto;
+  position: absolute;
+  top: 11vw;
+  left: 43vw; 
+  z-index: 2;
+}
