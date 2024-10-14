@@ -82,6 +82,7 @@ body {
   position: absolute;
   top: 2vh;
   left: 25vw;
+  
 }
 
 .menu-container {
@@ -131,6 +132,33 @@ body {
 }
 
 .alphabet-image {
-  width: 50%;
+  width: 60%;
   height: auto; /* Đảm bảo hình ảnh giữ nguyên tỷ lệ */
+}
+
+
+.logo {
+  position: absolute; 
+  top: 3vh;
+  left: 2vw;
+  width: 100%;
+  height: 100vh; 
+  z-index: -2;
+}
+
+.logo-image {
+  width: 15%;
+  height: auto; /* Đảm bảo hình ảnh giữ nguyên tỷ lệ */
+}
+
+.content{
+  position: absolute; 
+  top: 50%;
+  left: 35%;
+  font-size: 3vw;
+  font-family: Lucida, Monospace;
+  z-index: -1;
+  text-decoration: none;
+  white-space: nowrap; 
+  color: #B0ADA8;
 }
