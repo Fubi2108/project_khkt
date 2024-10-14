@@ -82,7 +82,7 @@ body {
   position: absolute;
   top: 2vh;
   left: 25vw;
-  
+  width: 50vw;
 }
 
 .menu-container {
@@ -163,9 +163,111 @@ body {
   color: #B0ADA8;
 }
 
-.center-button {
+.center-button1 {
   position: absolute;
-  top: 11vw;
-  left: 43vw; 
+  top: 15vw;
+  left: 25vw; 
   z-index: 2;
+}
+
+.center-button2 {
+  position: absolute;
+  top: 22vw;
+  left: 25vw; 
+  z-index: 2;
+}
+
+.center-button3 {
+  position: absolute;
+  top: 29vw;
+  left: 26.75vw; 
+  z-index: 2;
+}
+
+.center-button4 {
+  position: absolute;
+  top: 36vw;
+  left: 25vw; 
+  z-index: 2;
+}
+
+.image-btn {
+  width: 50vw;  
+  height: auto; 
+  cursor: pointer; 
+}
+
+.image-btn:hover {
+  transform: scale(1.08); /* Phóng to lên 120% khi hover */
+}
+
+.search-container {
+  position: absolute;
+  top: 2vh;
+  left: 25vw;
+  width: 50vw; /* Adjusts to control the width of the search bar */
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 5px 15px;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+.search-icon {
+  margin-right: 10px;
+  color: #aaa; /* Optional: color of the search icon */
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+.suggestions {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+  border: 1px solid #ccc; /* Matches the search bar border */
+  border-radius: 8px; /* Rounded corners for the suggestions box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for pop-up effect */
+  width: 100%; /* Aligns the suggestion box width to the search bar */
+  max-height: 200px; /* Optional: limit height and make it scrollable */
+  overflow-y: auto; /* Adds a scrollbar if there are too many suggestions */
+  background-color: white; /* Matches the background of the search bar */
+  position: absolute; /* Ensures it appears below the search bar */
+  z-index: 10; /* Make sure it stays above other content */
+}
+
+.suggestions li {
+  padding: 10px;
+  margin: 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
+.suggestions li:last-child {
+  border-bottom: none; /* Removes the border from the last item */
+}
+
+#res_list li {
+  padding: 10px; /* Space inside each list item */
+  cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+  transition: background-color 0.2s; /* Smooth transitions for hover effects */
+}
+
+#res_list li:hover {
+  background-color: #cbe4f4; /* Change background color on hover */
 }
